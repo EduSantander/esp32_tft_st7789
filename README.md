@@ -5,19 +5,21 @@ This project demonstrates how to interface an **ESP32** with the
 driver**.\
 The configuration uses the **TFT_eSPI** library with a customized setup
 to ensure correct color rendering and proper font loading.
+This is the TFT used:
+![TFT](docs/tft_front.jpg)
 
 ## 🧩 Components Used
 
-  Component             Model / Specification
-  --------------------- -----------------------------------
-  **Microcontroller**   ESP32 DevKit / Wemos Lolin32 Lite
-  **Display**           OTFTSPI GMT020-02-8P VER:1.21
-  **Driver IC**         ST7789
-  **Screen Size**       2.0 inches
-  **Resolution**        240 × 320 px
-  **Interface**         SPI
-  **Logic Voltage**     3.3V
-  **Library**           TFT_eSPI
+  | Component             | Model / Specification               |
+  | --------------------- | ----------------------------------- |
+  | **Microcontroller**   | ESP32 DevKit / Wemos Lolin32 Lite   |
+  | **Display**           | OTFTSPI GMT020-02-8P VER:1.21       |
+  | **Driver IC**         | ST7789                              |
+  | **Screen Size**       | 2.0 inches                          |
+  | **Resolution**        | 240 × 320 px                        |
+  | **Interface**         | SPI                                 |
+  | **Logic Voltage**     | 3.3V                                |
+  | **Library**           | TFT_eSPI                            |
 
 ## 🔌 Wiring Diagram
 
@@ -26,7 +28,7 @@ The diagram is located at:
 ```
 /docs/wiring_diagram.png
 ```
-![Wiring Diagram](docs/wiring_diagram.png)
+![Wiring Diagram](docs/wiring_diagram.jpg)
 
 ⚠️ *Although the image shows another TFT model, the wiring and pinout are identical for this project.*
 
