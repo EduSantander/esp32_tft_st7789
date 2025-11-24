@@ -4,9 +4,16 @@ This project demonstrates how to interface an **ESP32** with the
 **OTFTSPI GMT020-02-8P VER:1.21** 2.0" TFT display using the **ST7789
 driver**.\
 The configuration uses the **TFT_eSPI** library with a customized setup
-to ensure correct color rendering and proper font loading.
+to ensure correct color rendering and proper font loading.\
 This is the TFT used:
-![TFT](docs/tft_front.jpg)
+
+<p align="center">
+  <img src="docs/tft_front.jpg" width="300" height="210">
+</p>
+
+<p align="center">
+  <img src="docs/tft_back.jpg" width="300" height="210">
+</p>
 
 ## 🧩 Components Used
 
@@ -23,12 +30,9 @@ This is the TFT used:
 
 ## 🔌 Wiring Diagram
 
-The diagram is located at:
-
-```
-/docs/wiring_diagram.png
-```
-![Wiring Diagram](docs/wiring_diagram.jpg)
+<p align="center">
+  <img src="docs/wiring_diagram.jpg" width="400" height="250">
+</p>
 
 ⚠️ *Although the image shows another TFT model, the wiring and pinout are identical for this project.*
 
@@ -117,6 +121,12 @@ void setup() {
 
 void loop() {}
 ```
+The example's result:
+
+<p align="center">
+  <img src="docs/demo_running.jpg" width="400" height="250">
+</p>
+
 ## 📝 Author
 
 Project created by **Edu Santander**  
