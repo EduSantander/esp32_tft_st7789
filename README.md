@@ -26,21 +26,22 @@ The diagram is located at:
 ```
 /docs/wiring_diagram.png
 ```
+![Wiring Diagram](docs/wiring_diagram.png)
 
 ⚠️ *Although the image shows another TFT model, the wiring and pinout are identical for this project.*
 
 ---
 
-  TFT Pin          Description      ESP32 Pin
-  ---------------- ---------------- -----------
-  **VCC**          Power            3.3V
-  **GND**          Ground           GND
-  **SCL / SCLK**   SPI Clock        **18**
-  **SDA / MOSI**   SPI Data         **23**
-  **CS**           Chip Select      **5**
-  **DC**           Data / Command   **19**
-  **RST / RES**    Reset            **22**
-  **BLK / LED**    Backlight        3.3V
+| TFT Pin        | Description  | ESP32 Pin |
+| -------------- | ------------ | --------- |
+| **VCC**        | Power        | 3.3V      |
+| **GND**        | Ground       | GND       |
+| **SCL / SCLK** | SPI Clock    | **18**    |
+| **SDA / MOSI** | SPI Data     | **23**    |
+| **CS**         | Chip Select  | **5**     |
+| **DC**         | Data/Command | **19**    |
+| **RST / RES**  | Reset        | **22**    |
+| **BLK / LED**  | Backlight    | 3.3V      |
 
 > ⚠️ **Important:** The display works at **3.3V only**. Do not connect
 > 5V.
@@ -118,3 +119,5 @@ void loop() {}
 
 Project created by **Edu Santander**  
 For questions, improvements, or troubleshooting, feel free to open an issue.
+
+
